@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D08D09681B79A2B000CD6762 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D08D09671B79A2B000CD6762 /* main.m */; };
+		D08D096B1B79A2B000CD6762 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D08D096A1B79A2B000CD6762 /* AppDelegate.m */; };
+		D08D096E1B79A2B000CD6762 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D08D096D1B79A2B000CD6762 /* ViewController.m */; };
+		D08D09711B79A2B000CD6762 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D08D096F1B79A2B000CD6762 /* Main.storyboard */; };
+		D08D09731B79A2B000CD6762 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D08D09721B79A2B000CD6762 /* Images.xcassets */; };
+		D08D09761B79A2B000CD6762 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D08D09741B79A2B000CD6762 /* LaunchScreen.xib */; };
+		D08D09821B79A2B000CD6762 /* JxbLovelyLoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D08D09811B79A2B000CD6762 /* JxbLovelyLoginTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D08D097C1B79A2B000CD6762 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D08D095A1B79A2B000CD6762 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D08D09611B79A2B000CD6762;
+			remoteInfo = JxbLovelyLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D08D09621B79A2B000CD6762 /* JxbLovelyLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JxbLovelyLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D08D09661B79A2B000CD6762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D08D09671B79A2B000CD6762 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D08D09691B79A2B000CD6762 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D08D096A1B79A2B000CD6762 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D08D096C1B79A2B000CD6762 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D08D096D1B79A2B000CD6762 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D08D09701B79A2B000CD6762 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D08D09721B79A2B000CD6762 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D08D09751B79A2B000CD6762 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D08D097B1B79A2B000CD6762 /* JxbLovelyLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JxbLovelyLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D08D09801B79A2B000CD6762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D08D09811B79A2B000CD6762 /* JxbLovelyLoginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JxbLovelyLoginTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D08D095F1B79A2B000CD6762 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D08D09781B79A2B000CD6762 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D08D09591B79A2B000CD6762 = {
+			isa = PBXGroup;
+			children = (
+				D08D09641B79A2B000CD6762 /* JxbLovelyLogin */,
+				D08D097E1B79A2B000CD6762 /* JxbLovelyLoginTests */,
+				D08D09631B79A2B000CD6762 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D08D09631B79A2B000CD6762 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D08D09621B79A2B000CD6762 /* JxbLovelyLogin.app */,
+				D08D097B1B79A2B000CD6762 /* JxbLovelyLoginTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D08D09641B79A2B000CD6762 /* JxbLovelyLogin */ = {
+			isa = PBXGroup;
+			children = (
+				D08D09691B79A2B000CD6762 /* AppDelegate.h */,
+				D08D096A1B79A2B000CD6762 /* AppDelegate.m */,
+				D08D096C1B79A2B000CD6762 /* ViewController.h */,
+				D08D096D1B79A2B000CD6762 /* ViewController.m */,
+				D08D096F1B79A2B000CD6762 /* Main.storyboard */,
+				D08D09721B79A2B000CD6762 /* Images.xcassets */,
+				D08D09741B79A2B000CD6762 /* LaunchScreen.xib */,
+				D08D09651B79A2B000CD6762 /* Supporting Files */,
+			);
+			path = JxbLovelyLogin;
+			sourceTree = "<group>";
+		};
+		D08D09651B79A2B000CD6762 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D08D09661B79A2B000CD6762 /* Info.plist */,
+				D08D09671B79A2B000CD6762 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D08D097E1B79A2B000CD6762 /* JxbLovelyLoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				D08D09811B79A2B000CD6762 /* JxbLovelyLoginTests.m */,
+				D08D097F1B79A2B000CD6762 /* Supporting Files */,
+			);
+			path = JxbLovelyLoginTests;
+			sourceTree = "<group>";
+		};
+		D08D097F1B79A2B000CD6762 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D08D09801B79A2B000CD6762 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D08D09611B79A2B000CD6762 /* JxbLovelyLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D08D09851B79A2B000CD6762 /* Build configuration list for PBXNativeTarget "JxbLovelyLogin" */;
+			buildPhases = (
+				D08D095E1B79A2B000CD6762 /* Sources */,
+				D08D095F1B79A2B000CD6762 /* Frameworks */,
+				D08D09601B79A2B000CD6762 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JxbLovelyLogin;
+			productName = JxbLovelyLogin;
+			productReference = D08D09621B79A2B000CD6762 /* JxbLovelyLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D08D097A1B79A2B000CD6762 /* JxbLovelyLoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D08D09881B79A2B000CD6762 /* Build configuration list for PBXNativeTarget "JxbLovelyLoginTests" */;
+			buildPhases = (
+				D08D09771B79A2B000CD6762 /* Sources */,
+				D08D09781B79A2B000CD6762 /* Frameworks */,
+				D08D09791B79A2B000CD6762 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D08D097D1B79A2B000CD6762 /* PBXTargetDependency */,
+			);
+			name = JxbLovelyLoginTests;
+			productName = JxbLovelyLoginTests;
+			productReference = D08D097B1B79A2B000CD6762 /* JxbLovelyLoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D08D095A1B79A2B000CD6762 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Peter;
+				TargetAttributes = {
+					D08D09611B79A2B000CD6762 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					D08D097A1B79A2B000CD6762 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = D08D09611B79A2B000CD6762;
+					};
+				};
+			};
+			buildConfigurationList = D08D095D1B79A2B000CD6762 /* Build configuration list for PBXProject "JxbLovelyLogin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D08D09591B79A2B000CD6762;
+			productRefGroup = D08D09631B79A2B000CD6762 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D08D09611B79A2B000CD6762 /* JxbLovelyLogin */,
+				D08D097A1B79A2B000CD6762 /* JxbLovelyLoginTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D08D09601B79A2B000CD6762 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D08D09711B79A2B000CD6762 /* Main.storyboard in Resources */,
+				D08D09761B79A2B000CD6762 /* LaunchScreen.xib in Resources */,
+				D08D09731B79A2B000CD6762 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D08D09791B79A2B000CD6762 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D08D095E1B79A2B000CD6762 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D08D096E1B79A2B000CD6762 /* ViewController.m in Sources */,
+				D08D096B1B79A2B000CD6762 /* AppDelegate.m in Sources */,
+				D08D09681B79A2B000CD6762 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D08D09771B79A2B000CD6762 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D08D09821B79A2B000CD6762 /* JxbLovelyLoginTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D08D097D1B79A2B000CD6762 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D08D09611B79A2B000CD6762 /* JxbLovelyLogin */;
+			targetProxy = D08D097C1B79A2B000CD6762 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D08D096F1B79A2B000CD6762 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D08D09701B79A2B000CD6762 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D08D09741B79A2B000CD6762 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D08D09751B79A2B000CD6762 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D08D09831B79A2B000CD6762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D08D09841B79A2B000CD6762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D08D09861B79A2B000CD6762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JxbLovelyLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D08D09871B79A2B000CD6762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JxbLovelyLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D08D09891B79A2B000CD6762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JxbLovelyLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JxbLovelyLogin.app/JxbLovelyLogin";
+			};
+			name = Debug;
+		};
+		D08D098A1B79A2B000CD6762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JxbLovelyLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JxbLovelyLogin.app/JxbLovelyLogin";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D08D095D1B79A2B000CD6762 /* Build configuration list for PBXProject "JxbLovelyLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D08D09831B79A2B000CD6762 /* Debug */,
+				D08D09841B79A2B000CD6762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D08D09851B79A2B000CD6762 /* Build configuration list for PBXNativeTarget "JxbLovelyLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D08D09861B79A2B000CD6762 /* Debug */,
+				D08D09871B79A2B000CD6762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D08D09881B79A2B000CD6762 /* Build configuration list for PBXNativeTarget "JxbLovelyLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D08D09891B79A2B000CD6762 /* Debug */,
+				D08D098A1B79A2B000CD6762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D08D095A1B79A2B000CD6762 /* Project object */;
+}
